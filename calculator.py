@@ -9,10 +9,14 @@ import math
 # First example
 def add(a, b):
     return a + b
-def subtract(a,b):
+
+# my changes
+def sub(a, b):
     return a - b
+
 def multiply(a, b):
     return a * b
+
 def divide(a, b):
     if a == 0:
         raise ZeroDivisionError
