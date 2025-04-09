@@ -7,15 +7,36 @@ One function per operation, in order.
 import math
 
 # First example
-# santiago changes
+
 def add(a, b):
     return a + b
 
-# my changes
 def sub(a, b):
     return a - b
 
-# santiago changes
+def mul(a, b):
+    return a * b
+
+def div(a, b):
+    if a == 0:
+        raise ZeroDivisionError
+    else:
+        return b / a
+def log(a,b):
+    try:
+        return math.log(a,b)
+    except ValueError:
+        return None
+def exp(a, b):
+    try:
+        return math.exp(a,b)
+    except ValueError:
+        return None
+
+
+def add(a, b):
+    return a + b
+
 def multiply(a, b):
     return a * b
 
