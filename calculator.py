@@ -7,6 +7,7 @@ One function per operation, in order.
 import math
 
 # First example
+# santiago changes
 def add(a, b):
     return a + b
 
@@ -14,6 +15,7 @@ def add(a, b):
 def sub(a, b):
     return a - b
 
+# santiago changes
 def multiply(a, b):
     return a * b
 
