@@ -37,9 +37,10 @@ def exp(a, b):
     return a ** b
 
 def logarithm(a,b): # you will get an error for this (the the log test case should pass once you fix this). Good luck! ^-^
-    if a <= 0 or b <= 0 or b == 1:
-        raise ValueError
-    return math.log(a, b)
+    try:
+        return math.log(a,b)
+    except ValueError:
+        return None
 
 
 
