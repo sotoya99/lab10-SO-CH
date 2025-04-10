@@ -1,10 +1,6 @@
 import unittest
 from calculator import *
 
-#https://github.com/sotoya99/lab10-SO-CH
-#Partner 1: Santiago Otoya
-#Partner 2: Cher Huang
-
 class TestCalculator(unittest.TestCase):
     # Partner 2
     def test_add(self): # 3 assertions
