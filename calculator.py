@@ -1,5 +1,5 @@
-# 
-# Partner 1: 
+# https://github.com/sotoya99/lab10-SO-CH
+# Partner 1: Santiago Otoya
 # Partner 2: Cher Huang
 
 """
