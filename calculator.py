@@ -1,3 +1,7 @@
+# 
+# Partner 1: 
+# Partner 2: Cher Huang
+
 """
 calculator.py
 - Defines functions used to create a simple calculator
@@ -26,15 +30,13 @@ def mul(a, b):
 
 def div(a, b):
     if a == 0:
-        raise ZeroDivisionError
+        raise ZeroDivisionError("error: divide by zero")
     else:
         return b / a
 def exp(a, b):
-    try:
-        return math.exp(a,b)
-    except ValueError:
-        return None
-def logarithm(a,b):
+    return a ** b
+
+def logarithm(a,b): # you will get an error for this (the the log test case should pass once you fix this). Good luck! ^-^
     try:
         return math.log(a,b)
     except ValueError:
